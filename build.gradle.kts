@@ -22,7 +22,8 @@ tasks.test {
 // Configuración de SonarQube
 sonarqube {
     properties {
-        property("sonar.projectKey", "tu_proyecto_clave")
+        property("sonar.projectKey", "Calculator3000")
+        property("sonar.projectName", "Calculator3000")
         property("sonar.host.url", "http://localhost:9000")
     }
 }
