@@ -23,7 +23,7 @@ sonarqube {
     properties {
         property("sonar.projectKey", "sonarqube")
         property("sonar.projectName", "sonarqube")
-        property("sonar.host.url", "http://localhost:9000") // Cambia esto si tu instancia está en otro lugar
-        property("sonar.login", "sqp_42429cfa66f04e31e4d60508ce424fcc4081f2f6") // Usa un token seguro
+        property("sonar.host.url", "http://localhost:9000")
+        property("sonar.login", "sqp_42429cfa66f04e31e4d60508ce424fcc4081f2f6")
     }
 }
